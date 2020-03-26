@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+main {
+  text-align: center;
+}
+
+button {
+  margin: 2em;
+  padding: 1em 2em;
+  background-color: #282c34;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #4a4f58;
+}
+
+.books-display {
+  max-width: 500px;
+  margin: 1em auto;
+}
+
+.book {
+  border: solid #282c34 3px;
+  border-radius: 5px;
+  margin: 0.5em;
+  text-align: left;
+  padding: 0.5em 3em;
+}
+
+.book-key {
+  font-weight: bold;
+}
